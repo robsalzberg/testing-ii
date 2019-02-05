@@ -7,11 +7,8 @@ describe('<Display /> tests', () => {
     it('should display balls and strikes', () => {
         const { getByText } = render(<Display />);
         
-        const balls = getByText(/Balls:/i);
-        const strikes = getByText(/Strikes:/i);
-
-        expect(balls).toBeInTheDocument();
-        expect(strikes).toBeInTheDocument();
+        getByText(/Balls:/i);
+        getByText(/Strikes:/i);
         
     });
 
