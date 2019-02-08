@@ -1,0 +1,8 @@
+{
+  "name": "testing-ii",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/robsalzberg/testing-ii.git",
+  "author": "Rob Salzberg <robsalzberg@gmail.com>",
+  "license": "MIT"
+}
